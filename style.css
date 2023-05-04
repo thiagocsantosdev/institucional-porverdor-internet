@@ -1,0 +1,217 @@
+*{
+    margin:0px;
+    padding:0px;
+  }
+  header {
+    margin: 1rem;
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+  }
+  header h1{
+    font-family:helvetica;
+    
+  }
+  header nav ul{
+    display:flex;
+    gap:2rem;
+    
+  }
+  header nav ul a{
+    text-decoration:none;
+    color:#1c1c1c;
+    font-family:helvetica;
+    font-size:1.2rem;  
+  }
+  .fatura{
+    background:purple;
+    color:white;
+    border-radius:10px;
+    padding-right:10px;
+    padding-left:10px;
+  }
+  .container-img-principal{
+    display:flex;
+  }
+  .img_principal{
+   width:50vw;
+   margin-top:10rem;
+   margin-left:1rem;
+  }
+  .img_principal img{
+    width:70vw;
+  }
+  .img_principal h1{
+    font-family:helvetica;
+    font-size:2.8rem;
+  }
+  .img_principal-2 img{
+    width:760px;
+  }
+  .planos_container h1{
+    margin-top:2rem;
+    display:flex;
+    justify-content:center;
+    font-family:helvetica;
+    
+  }
+  .container-img-principal span{
+    background-color:purple;
+    color:white;
+    padding:0.2rem;
+    
+  }
+  .cards{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    gap:0.2rem;
+    margin:1rem;
+  }
+  .card{
+    margin-top:1rem;
+    width:400px;
+    height:450px;
+    border-radius:15px;
+    background-color:lightgray;
+    font-family:helvetica;
+    text-align:center;
+    
+  }
+  .card h2{
+    margin-top:2rem;
+    text-transform:uppercase;
+    font-size:28px;
+    border-bottom:4px solid purple
+  }
+  .card ul{
+    margin-top:2rem;
+    display:flex;
+    flex-direction:column;
+    list-style:none;
+    text-align:center;
+    gap:1rem;
+    font-size:12px;
+  }
+  .preco{
+    margin:2rem;
+    font-size:6rem;
+    font-family:impact;
+  }
+  .botao-contratar{
+    border:none;
+    padding-left:10vw;
+    padding-right:10vw;
+    padding-top:3px;
+    padding-bottom:3px;
+    border-radius:15px;
+    background-color:purple;
+    color:white;
+    text-transform:uppercase;
+    
+  }
+  #plus{
+    background-color:purple;
+    color:white;
+  }
+  #plus button{
+    background-color:white;
+    color:purple;
+  }
+  .saiba-mais{
+    margin-top:4rem;
+    border-radius:15px;
+    border:none;
+    padding-left:60px;
+    padding-right:60px;
+    padding-top:20px;
+    padding-bottom:20px;
+    background-color:purple;
+    color:white;
+    transition:.5s;
+    
+    
+  }
+  .saiba-mais:hover{
+    background-color:white;
+    color:purple;
+    border: 2px solid purple;
+    transition:.5s;
+  }
+  .planos_container h1{
+    margin-top:3rem;
+    margin-bottom:3rem;
+  
+  }
+  .faca-mais-container h1{
+    margin-top:3rem;
+    margin-bottom:3rem;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-family:helvetica;
+    
+  }
+  footer{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1000%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(127%2c 7%2c 118%2c 1)'%3e%3c/rect%3e%3cpath d='M0%2c660.555C120.698%2c646.477%2c205.095%2c541.832%2c297.494%2c462.91C377.981%2c394.162%2c445.267%2c318.247%2c503.921%2c230.133C572.944%2c126.441%2c691.922%2c26.279%2c669.732%2c-96.293C647.426%2c-219.507%2c482.288%2c-252.223%2c399.579%2c-346.237C317.784%2c-439.212%2c297.611%2c-583.863%2c188.792%2c-642.967C73.234%2c-705.732%2c-81.468%2c-733.372%2c-196.771%2c-670.141C-312.109%2c-606.891%2c-323.907%2c-448.743%2c-381.255%2c-330.36C-422.95%2c-244.288%2c-459.433%2c-161.528%2c-487.455%2c-70.086C-520.797%2c38.716%2c-586.841%2c145.379%2c-561.005%2c256.203C-533.616%2c373.689%2c-443.574%2c467.397%2c-345.709%2c537.934C-244.468%2c610.905%2c-123.958%2c675.014%2c0%2c660.555' fill='%23670660'%3e%3c/path%3e%3cpath d='M1440 1122.1480000000001C1542.138 1105.784 1621.946 1032.546 1700.242 964.9449999999999 1769.2069999999999 905.4 1822.501 834.6220000000001 1865.842 754.476 1911.975 669.167 1965.7759999999998 582.077 1959.6309999999999 485.288 1953.2910000000002 385.43899999999996 1884.113 305.754 1831.931 220.39 1769.2559999999999 117.86099999999999 1739.88-35.04399999999998 1623.429-64.70299999999997 1506.081-94.59000000000003 1405.358 24.408000000000015 1300.5430000000001 85.05200000000002 1219.878 131.723 1141.222 177.80700000000002 1081.145 249.051 1021.691 319.557 989.832 404.04499999999996 958.427 490.76 919.307 598.776 843.619 707.4970000000001 875.098 817.982 907.06 930.165 1017.31 1002.605 1120.0149999999999 1057.906 1217.783 1110.548 1330.359 1139.714 1440 1122.1480000000001' fill='%2397088c'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1000'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+  color:white;
+  height:100px; 
+  font-family:helvetica; 
+  display:flex;
+  justify-content: space-between;
+  align-items:center; 
+  
+  
+  }
+  footer ul {
+    display:flex; 
+    margin-left:2rem;
+    gap:1rem;
+  }
+  footer ul a{
+    list-style:none;
+    color:white;
+    text-decoration:none;
+  }
+  .criador{
+  margin-right:2rem;
+  }
+  .faca-mais-container-cards{
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+    justify-content:space-around;
+  }
+  .card-faca-mais{
+    
+    width:300px;
+    margin:0.2rem;
+    text-align:center;
+    font-family:helvetica;
+    margin-bottom:3rem;
+  
+  }
+  .card-faca-mais img{
+    width:300px;
+    border-radius:15px;
+  }
+  @media (max-width: 480px){
+    .img_principal-2{
+      display:none;
+    }
+    header nav{
+      display:none;
+    }
+  }
+  @media (max-width: 680px){
+    .img_principal-2{
+      display:none;
+    }
+    footer{
+      display:flex;
+      flex-wrap:wrap;
+      align-items:center;
+      justify-content:center;
+    }
+  }
+  
